@@ -274,8 +274,8 @@ dispatcher = updater.dispatcher
 
 aiohttpsession = ClientSession()
 
-ARQ_API_URL = "https://arq.hamker.in"
 
+ARQ_API_URL = "https://arq.hamker.in"
 
 # Aiohttp Client
 print("[INFO]: INITIALZING AIOHTTP SESSION")
