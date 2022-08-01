@@ -31,6 +31,10 @@ import time
 from pyrogram.types import Message
 from inspect import getfullargspec
 from pyrogram import Client, filters
+from pyrogram.types import Message
+from pyrogram import Client, errors
+from pyrogram.errors.exceptions.bad_request_400 import PeerIdInvalid, ChannelInvalid
+from pyrogram.types import Chat, User
 from redis import StrictRedis
 from aiohttp import ClientSession
 import telegram.ext as tg
