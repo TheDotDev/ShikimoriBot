@@ -139,7 +139,7 @@ if ENV:
     REDIS_URL = os.environ.get("REDIS_URL")
     SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", None)
     SPAMWATCH_SUPPORT_CHAT = os.environ.get("SPAMWATCH_SUPPORT_CHAT", None)
-    ARQ_API_KEY = os.environ.get("ARQ_API", None)
+    ARQ_API = os.environ.get("ARQ_API", None)
     HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
     HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
     APOD_API_KEY = os.environ.get("APOD_API_KEY", None)
