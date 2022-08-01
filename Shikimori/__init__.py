@@ -279,7 +279,7 @@ aiohttpsession = ClientSession()
 
 
 ARQ_API_URL = "https://arq.hamker.in"
-
+ARQ_API_KEY = ARQ_API
 # Aiohttp Client
 print("[INFO]: INITIALZING AIOHTTP SESSION")
 session = ClientSession()
