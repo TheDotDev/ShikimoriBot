@@ -238,6 +238,8 @@ else:
     NETWORK_USERNAME = Config.NETWORK_USERNAME
     INLINE_IMG = Config.INLINE_IMG
     OWNER_WELCOME_MEDIA = Config.OWNER_WELCOME_MEDIA
+    ARQ_API = Config.ARQ_API_KEY
+    ARQ_API_URL = Config.ARQ_API_URL
 
     try:
         WHITELIST_CHATS = {int(x) for x in os.environ.get('WHITELIST_CHATS', "").split()}
