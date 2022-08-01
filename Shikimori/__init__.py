@@ -273,9 +273,8 @@ telethn = TelegramClient(MemorySession(), API_ID, API_HASH)
 dispatcher = updater.dispatcher
 
 aiohttpsession = ClientSession()
-
+#same
 ARQ_API_URL = "https://arq.hamker.in"
-
 
 # Aiohttp Client
 print("[INFO]: INITIALZING AIOHTTP SESSION")
