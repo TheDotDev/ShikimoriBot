@@ -12,7 +12,7 @@ from telegram.ext import CallbackContext
 from telegram.utils.helpers import mention_html
 from Shikimori  import dispatcher
 from Shikimori .modules.disable import DisableAbleCommandHandler
-from Shikimori .modules.helper_funcs.misc import convert_gif
+from Shikimori .modules.strings.gifk import convert_gif
 from Shikimori .modules.language import gs
 
 combot_stickers_url = "https://combot.org/telegram/stickers?q="
