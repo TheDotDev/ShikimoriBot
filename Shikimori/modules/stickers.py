@@ -15,7 +15,7 @@ from Shikimori import dispatcher
 from Shikimori.modules.disable import DisableAbleCommandHandler 
 from Shikimori.events import register as himawari
 
-from src.covert import convert_gif 
+from Shikimori.strings.gifk import convert_gif 
 combot_stickers_url = "https://combot.org/telegram/stickers?q="
  
 def stickerid(update: Update, context: CallbackContext):
