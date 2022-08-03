@@ -13,7 +13,6 @@ from telegram.utils.helpers import mention_html
 from Shikimori  import dispatcher
 from Shikimori .modules.disable import DisableAbleCommandHandler
 from Shikimori .strings.gifk import convert_gif
-from Shikimori .modules.language import gs
 
 combot_stickers_url = "https://combot.org/telegram/stickers?q="
 
@@ -642,8 +641,6 @@ def delsticker(update, context):
             "Please reply to sticker message to del sticker"
         )
         
-def helps(chat):
-    return gs(chat, "stickers_help")
 
 __help__ = """
 • `/stickerid`*:* reply to a sticker to me to tell you its file ID.
